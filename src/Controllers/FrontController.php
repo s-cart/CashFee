@@ -10,7 +10,7 @@
 namespace App\Plugins\Fee\CashFee\Controllers;
 
 use App\Plugins\Fee\CashFee\AppConfig;
-use App\Http\Controllers\RootFrontController;
+use SCart\Core\Front\Controllers\RootFrontController;
 class FrontController extends RootFrontController
 {
     public $plugin;

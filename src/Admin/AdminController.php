@@ -4,7 +4,7 @@
 namespace App\Plugins\Fee\CashFee\Admin;
 
 use App\Plugins\Fee\CashFee\Admin\Models\AdminCashFee;
-use App\Http\Controllers\RootAdminController;
+use SCart\Core\Admin\Controllers\RootAdminController;
 use App\Plugins\Fee\CashFee\AppConfig;
 use SCart\Core\Admin\Models\AdminConfig;
 use Validator;
